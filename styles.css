@@ -58,3 +58,49 @@ footer {
   margin-top: 3rem;
   font-size: 0.8rem;
 }
+/* Improve page readability for content pages */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Section styling */
+section {
+  background-color: rgba(255, 255, 255, 0.08);
+  padding: 2rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+}
+
+/* Headings */
+h1 {
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+/* Paragraph spacing */
+p {
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
+}
+
+/* Back button styling */
+nav a {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  border: 2px solid #ffffff;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+nav a:hover,
+nav a:focus {
+  background-color: #ffffff;
+  color: #4b5320;
+}
