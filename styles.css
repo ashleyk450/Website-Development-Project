@@ -121,3 +121,6 @@ main p,
 main li {
   letter-spacing: 0.03em;
 }
+nav {
+  text-align: center;
+}
