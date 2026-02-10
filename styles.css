@@ -1,0 +1,60 @@
+/* General page styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(120deg, #4b5320, #7a8450);
+  color: #ffffff;
+  text-align: center;
+}
+
+/* Header */
+header {
+  padding: 2rem;
+}
+
+header p {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+/* Profile image */
+img {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  margin: 2rem auto;
+}
+
+/* Navigation buttons */
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  margin: 1rem 0;
+}
+
+nav a {
+  display: inline-block;
+  width: 220px;
+  padding: 0.75rem;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+/* Accessibility: focus + hover */
+nav a:hover,
+nav a:focus {
+  background-color: #ffffff;
+  color: #4b5320;
+}
+
+/* Footer */
+footer {
+  margin-top: 3rem;
+  font-size: 0.8rem;
+}
