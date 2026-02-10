@@ -104,3 +104,20 @@ nav a:focus {
   background-color: #ffffff;
   color: #4b5320;
 }
+/* Content list styling (Resume, Projects, etc.) */
+main ul {
+  list-style-position: inside;
+  padding-left: 0;
+  margin: 1.5rem auto;
+  max-width: 600px;
+  text-align: left;
+}
+
+main ul li {
+  margin-bottom: 0.5rem;
+}
+/* Improve readability for resume and content text */
+main p,
+main li {
+  letter-spacing: 0.03em;
+}
