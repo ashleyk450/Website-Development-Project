@@ -15,38 +15,69 @@
 
   <main>
     <section>
-      <p>
-        If you would like to get in touch with me, please use the contact
-        information below.
-      </p>
 
-      <ul>
-        <li>
-          <strong>Email:</strong>
-          <a href="mailto:ashleyk450@gmail.com">ashleyk450@gmail.com</a>
-        </li>
+<p>
+If you would like to get in touch with me, please use the contact
+information below or send a message using the form.
+</p>
 
-        <li>
-          <strong>Phone:</strong>
-          317-606-6987
-        </li>
+<ul>
+<li>
+<strong>Email:</strong>
+<a href="mailto:ashleyk450@gmail.com">ashleyk450@gmail.com</a>
+</li>
 
-        <li>
-          <strong>Location:</strong>
-          <a href="https://www.google.com/maps/place/Indianapolis,+IN/" target="_blank">
-            Greater Indianapolis Area
-          </a>
-        </li>
-      </ul>
-    </section>
+<li>
+<strong>Phone:</strong>
+317-606-6987
+</li>
 
-    <nav aria-label="Secondary navigation">
-      <a href="index.html">← Back to Home</a>
-    </nav>
-  </main>
+<li>
+<strong>Location:</strong>
+<a href="https://www.google.com/maps/place/Indianapolis,+IN/" target="_blank">
+Greater Indianapolis Area
+</a>
+</li>
+</ul>
 
-  <footer>
-    <p>© 2026 Ashley King</p>
-  </footer>
+<h2>Send Me a Message</h2>
+
+<form onsubmit="handleForm(event)">
+
+<label>Name</label><br>
+<input type="text" required><br><br>
+
+<label>Email</label><br>
+<input type="email" required><br><br>
+
+<label>Message</label><br>
+<input type="text" required><br><br>
+
+<input type="submit" value="Send Message">
+
+</form>
+
+<p id="confirmation"></p>
+
+</section>
+
+<nav aria-label="Secondary navigation">
+<a href="index.html">← Back to Home</a>
+</nav>
+
+</main>
+
+<footer>
+<p>© 2026 Ashley King</p>
+</footer>
+
+<script>
+function handleForm(event) {
+event.preventDefault();
+document.getElementById("confirmation").innerHTML =
+"Thanks! Your message has been received.";
+}
+</script>
+
 </body>
 </html>
